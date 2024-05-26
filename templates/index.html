@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+
+<!-- saved from url=(0054)http://localhost/www/wordpress-5.6.2/wordpress/home-2/ -->
+<html class="html" lang="en-US" itemscope="" itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <style type="text/css" data-tippy-stylesheet="">
+        .tippy-iOS {
+            cursor: pointer!important;
+            -webkit-tap-highlight-color: transparent
+        }
+        
+        .tippy-popper {
+            transition-timing-function: cubic-bezier(.165, .84, .44, 1);
+            max-width: calc(100% - 8px);
+            pointer-events: none;
+            outline: 0
+        }
+        
+        .tippy-popper[x-placement^=top] .tippy-backdrop {
+            border-radius: 40% 40% 0 0
+        }
+        
+        .tippy-popper[x-placement^=top] .tippy-roundarrow {
+            bottom: -7px;
+            bottom: -6.5px;
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+            margin: 0 3px
+        }
+        
+        .tippy-popper[x-placement^=top] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0;
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg)
+        }
+        
+        .tippy-popper[x-placement^=top] .tippy-arrow {
+            border-top: 8px solid #333;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            bottom: -7px;
+            margin: 0 3px;
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0
+        }
+        
+        .tippy-popper[x-placement^=top] .tippy-backdrop {
+            -webkit-transform-origin: 0 25%;
+            transform-origin: 0 25%
+        }
+        
+        .tippy-popper[x-placement^=top] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -55%);
+            transform: scale(1) translate(-50%, -55%)
+        }
+        
+        .tippy-popper[x-placement^=top] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-50%, -45%);
+            transform: scale(.2) translate(-50%, -45%);
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=perspective] {
+            -webkit-transform-origin: bottom;
+            transform-origin: bottom
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateY(-10px);
+            transform: perspective(700px) translateY(-10px)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateX(60deg);
+            transform: perspective(700px) rotateX(60deg)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=scale] {
+            -webkit-transform-origin: bottom;
+            transform-origin: bottom
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+        
+        .tippy-popper[x-placement^=top] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(-10px) scale(.5);
+            transform: translateY(-10px) scale(.5)
+        }
+        
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop {
+            border-radius: 0 0 30% 30%
+        }
+        
+        .tippy-popper[x-placement^=bottom] .tippy-roundarrow {
+            top: -7px;
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+            margin: 0 3px
+        }
+        
+        .tippy-popper[x-placement^=bottom] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0
+        }
+        
+        .tippy-popper[x-placement^=bottom] .tippy-arrow {
+            border-bottom: 8px solid #333;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            top: -7px;
+            margin: 0 3px;
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%
+        }
+        
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop {
+            -webkit-transform-origin: 0 -50%;
+            transform-origin: 0 -50%
+        }
+        
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -45%);
+            transform: scale(1) translate(-50%, -45%)
+        }
+        
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-50%);
+            transform: scale(.2) translate(-50%);
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(20px);
+            transform: translateY(20px)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=perspective] {
+            -webkit-transform-origin: top;
+            transform-origin: top
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateY(10px);
+            transform: perspective(700px) translateY(10px)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateX(-60deg);
+            transform: perspective(700px) rotateX(-60deg)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=scale] {
+            -webkit-transform-origin: top;
+            transform-origin: top
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+        
+        .tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(10px) scale(.5);
+            transform: translateY(10px) scale(.5)
+        }
+        
+        .tippy-popper[x-placement^=left] .tippy-backdrop {
+            border-radius: 50% 0 0 50%
+        }
+        
+        .tippy-popper[x-placement^=left] .tippy-roundarrow {
+            right: -12px;
+            -webkit-transform-origin: 33.33333333% 50%;
+            transform-origin: 33.33333333% 50%;
+            margin: 3px 0
+        }
+        
+        .tippy-popper[x-placement^=left] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0;
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg)
+        }
+        
+        .tippy-popper[x-placement^=left] .tippy-arrow {
+            border-left: 8px solid #333;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            right: -7px;
+            margin: 3px 0;
+            -webkit-transform-origin: 0 50%;
+            transform-origin: 0 50%
+        }
+        
+        .tippy-popper[x-placement^=left] .tippy-backdrop {
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0
+        }
+        
+        .tippy-popper[x-placement^=left] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -50%);
+            transform: scale(1) translate(-50%, -50%)
+        }
+        
+        .tippy-popper[x-placement^=left] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-75%, -50%);
+            transform: scale(.2) translate(-75%, -50%);
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(-20px);
+            transform: translateX(-20px)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=perspective] {
+            -webkit-transform-origin: right;
+            transform-origin: right
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateX(-10px);
+            transform: perspective(700px) translateX(-10px)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateY(-60deg);
+            transform: perspective(700px) rotateY(-60deg)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=scale] {
+            -webkit-transform-origin: right;
+            transform-origin: right
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+        
+        .tippy-popper[x-placement^=left] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(-10px) scale(.5);
+            transform: translateX(-10px) scale(.5)
+        }
+        
+        .tippy-popper[x-placement^=right] .tippy-backdrop {
+            border-radius: 0 50% 50% 0
+        }
+        
+        .tippy-popper[x-placement^=right] .tippy-roundarrow {
+            left: -12px;
+            -webkit-transform-origin: 66.66666666% 50%;
+            transform-origin: 66.66666666% 50%;
+            margin: 3px 0
+        }
+        
+        .tippy-popper[x-placement^=right] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0;
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg)
+        }
+        
+        .tippy-popper[x-placement^=right] .tippy-arrow {
+            border-right: 8px solid #333;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            left: -7px;
+            margin: 3px 0;
+            -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%
+        }
+        
+        .tippy-popper[x-placement^=right] .tippy-backdrop {
+            -webkit-transform-origin: -50% 0;
+            transform-origin: -50% 0
+        }
+        
+        .tippy-popper[x-placement^=right] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -50%);
+            transform: scale(1) translate(-50%, -50%)
+        }
+        
+        .tippy-popper[x-placement^=right] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-25%, -50%);
+            transform: scale(.2) translate(-25%, -50%);
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(20px);
+            transform: translateX(20px)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=perspective] {
+            -webkit-transform-origin: left;
+            transform-origin: left
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateX(10px);
+            transform: perspective(700px) translateX(10px)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateY(60deg);
+            transform: perspective(700px) rotateY(60deg)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=scale] {
+            -webkit-transform-origin: left;
+            transform-origin: left
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+        
+        .tippy-popper[x-placement^=right] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(10px) scale(.5);
+            transform: translateX(10px) scale(.5)
+        }
+        
+        .tippy-tooltip {
+            position: relative;
+            color: #fff;
+            border-radius: .25rem;
+            font-size: .875rem;
+            padding: .3125rem .5625rem;
+            line-height: 1.4;
+            text-align: center;
+            background-color: #333
+        }
+        
+        .tippy-tooltip[data-size=small] {
+            padding: .1875rem .375rem;
+            font-size: .75rem
+        }
+        
+        .tippy-tooltip[data-size=large] {
+            padding: .375rem .75rem;
+            font-size: 1rem
+        }
+        
+        .tippy-tooltip[data-animatefill] {
+            overflow: hidden;
+            background-color: initial
+        }
+        
+        .tippy-tooltip[data-interactive],
+        .tippy-tooltip[data-interactive] .tippy-roundarrow path {
+            pointer-events: auto
+        }
+        
+        .tippy-tooltip[data-inertia][data-state=visible] {
+            transition-timing-function: cubic-bezier(.54, 1.5, .38, 1.11)
+        }
+        
+        .tippy-tooltip[data-inertia][data-state=hidden] {
+            transition-timing-function: ease
+        }
+        
+        .tippy-arrow,
+        .tippy-roundarrow {
+            position: absolute;
+            width: 0;
+            height: 0
+        }
+        
+        .tippy-roundarrow {
+            width: 18px;
+            height: 7px;
+            fill: #333;
+            pointer-events: none
+        }
+        
+        .tippy-backdrop {
+            position: absolute;
+            background-color: #333;
+            border-radius: 50%;
+            width: calc(110% + 2rem);
+            left: 50%;
+            top: 50%;
+            z-index: -1;
+            transition: all cubic-bezier(.46, .1, .52, .98);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden
+        }
+        
+        .tippy-backdrop:after {
+            content: "";
+            float: left;
+            padding-top: 100%
+        }
+        
+        .tippy-backdrop+.tippy-content {
+            transition-property: opacity;
+            will-change: opacity
+        }
+        
+        .tippy-backdrop+.tippy-content[data-state=hidden] {
+            opacity: 0
+        }
+    </style>
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="http://s.w.org/">
+    <script type="text/javascript" id="www-widgetapi-script" src="./static/www-widgetapi.jss.download" async=""></script>
+    <script src="./static/iframe_api"></script>
+    <script src="./static/iframe_api"></script>
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "http:\/\/localhost\/www\/wordpress-5.6.2\/wordpress\/wp-includes\/js\/wp-emoji-release.min.jss?ver=5.6.7"
+            }
+        };
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode;
+                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+                e = i.toDataURL();
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <script src="./static/wp-emoji-release.min.jss.download" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel="stylesheet" id="wp-block-library-css" href="./static/style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wp-block-library-theme-css" href="./static/theme.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="contact-form-7-css" href="./static/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="pafe-before-after-image-comparison-slider-css" href="./static/pafe-before-after-image-comparison-slider.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="pafe-switch-content-css" href="./static/pafe-switch-content.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="pafe-tooltip-css" href="./static/pafe-tooltip.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="./static/all.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="simple-line-icons-css" href="./static/simple-line-icons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="magnific-popup-css" href="./static/magnific-popup.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="slick-css" href="./static/slick.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="oceanwp-style-css" href="./static/style.min(1).css" type="text/css" media="all">
+    <link rel="stylesheet" id="oceanwp-google-font-open-sans-css" href="./static/css" type="text/css" media="all">
+    <link rel="stylesheet" id="oceanwp-google-font-raleway-css" href="./static/css(1)" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-css" href="./static/elementor-icons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-animations-css" href="./static/animations.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="./static/frontend.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-pro-css" href="./static/frontend.min(1).css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-global-css" href="./static/global.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-post-2582-css" href="./static/post-2582.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_fonticons_ii-css" href="./static/um-fonticons-ii.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_fonticons_fa-css" href="./static/um-fonticons-fa.css" type="text/css" media="all">
+    <link rel="stylesheet" id="select2-css" href="./static/select2.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_crop-css" href="./static/um-crop.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_modal-css" href="./static/um-modal.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_styles-css" href="./static/um-styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_members-css" href="./static/um-members.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_profile-css" href="./static/um-profile.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_account-css" href="./static/um-account.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_misc-css" href="./static/um-misc.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_fileupload-css" href="./static/um-fileupload.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_datetime-css" href="./static/default.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_datetime_date-css" href="./static/default.date.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_datetime_time-css" href="./static/default.time.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_raty-css" href="./static/um-raty.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_scrollbar-css" href="./static/simplebar.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_tipsy-css" href="./static/um-tipsy.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_responsive-css" href="./static/um-responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" id="um_default_css-css" href="./static/um-old-default.css" type="text/css" media="all">
+    <link rel="stylesheet" id="oe-widgets-style-css" href="./static/widgets.css" type="text/css" media="all">
+    <link rel="stylesheet" id="google-fonts-1-css" href="./static/css(2)" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./static/fontawesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./static/solid.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-regular-css" href="./static/regular.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./static/brands.min.css" type="text/css" media="all">
+    <script type="text/javascript" src="./static/jquery.min.jss.download" id="jquery-core-js"></script>
+    <script type="text/javascript" src="./static/jquery-migrate.min.jss.download" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="./static/pafe-image-carousel-multiple-custom-urls.min.jss.download" id="pafe-image-carousel-multiple-custom-urls-js"></script>
+    <script type="text/javascript" src="./static/pafe-before-after-image-comparison-slider.min.jss.download" id="pafe-before-after-image-comparison-slider-scripts-js"></script>
+    <script type="text/javascript" src="./static/pafe-switch-content.min.jss.download" id="pafe-switch-content-scripts-js"></script>
+    <script type="text/javascript" src="./static/pafe-tooltip.min.jss.download" id="pafe-tooltip-scripts-js"></script>
+    <script type="text/javascript" src="./static/um-gdpr.min.jss.download" id="um-gdpr-js"></script>
+    <link rel="https://api.w.org/" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-json/">
+    <link rel="alternate" type="application/json" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-json/wp/v2/pages/2582">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/www/wordpress-5.6.2/wordpress/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 5.6.7">
+    <link rel="shortlink" href="http://localhost/www/wordpress-5.6.2/wordpress/?p=2582">
+    <link rel="alternate" type="application/json+oembed" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwww%2Fwordpress-5.6.2%2Fwordpress%2Fhome-2%2F">
+    <link rel="alternate" type="text/xml+oembed" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwww%2Fwordpress-5.6.2%2Fwordpress%2Fhome-2%2F&amp;format=xml">
+    <style type="text/css">
+        .request_name {
+            display: none !important;
+        }
+    </style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <style type="text/css">
+        .uml-header-info {
+            float: left;
+            width: 67%;
+            margin-left: 4px;
+        }
+        
+        .uml-header-info h3 {
+            margin: 0 !important;
+        }
+        
+        .umlw-login-avatar img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="icon" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-content/uploads/2019/10/cropped-8-removebg-preview-1-32x32.png" sizes="32x32">
+    <link rel="icon" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-content/uploads/2019/10/cropped-8-removebg-preview-1-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="http://localhost/www/wordpress-5.6.2/wordpress/wp-content/uploads/2019/10/cropped-8-removebg-preview-1-180x180.png">
+    <meta name="msapplication-TileImage" content="http://localhost/www/wordpress-5.6.2/wordpress/wp-content/uploads/2019/10/cropped-8-removebg-preview-1-270x270.png">
+    <style type="text/css" id="wp-custom-css">
+        /* Link colors */
+        
+        .um a.um-link,
+        .um .um-tip:hover,
+        .um .um-field-radio.active:not(.um-field-radio-state-disabled) i,
+        .um .um-field-checkbox.active:not(.um-field-radio-state-disabled) i,
+        .um .um-member-name a:hover,
+        .um .um-member-more a:hover,
+        .um .um-member-less a:hover,
+        .um .um-members-pagi a:hover,
+        .um .um-cover-add:hover,
+        .um .um-profile-subnav a.active,
+        .um .um-item-meta a,
+        .um-account-name a:hover,
+        .um-account-nav a.current,
+        .um-account-side li a.current span.um-account-icon,
+        .um-account-side li a.current:hover span.um-account-icon,
+        .um-dropdown li a:hover,
+        i.um-active-color,
+        span.um-active-color {
+            color: #3ba1da !important
+        }
+        
+        .um a.um-link:hover,
+        .um a.um-link-hvr:hover {
+            color: #44b0ec !important
+        }
+        /* Button colors */
+        
+        .um .um-field-group-head,
+        .picker__box,
+        .picker__nav--prev:hover,
+        .picker__nav--next:hover,
+        .um .um-members-pagi span.current,
+        .um .um-members-pagi span.current:hover,
+        .um .um-profile-nav-item.active a,
+        .um .um-profile-nav-item.active a:hover,
+        .upload,
+        .um-modal-header,
+        .um-modal-btn,
+        .um-modal-btn.disabled,
+        .um-modal-btn.disabled:hover,
+        div.uimob800 .um-account-side li a.current,
+        div.uimob800 .um-account-side li a.current:hover,
+        .um .um-button,
+        .um a.um-button,
+        .um a.um-button.um-disabled:hover,
+        .um a.um-button.um-disabled:focus,
+        .um a.um-button.um-disabled:active,
+        .um input[type=submit].um-button,
+        .um input[type=submit].um-button:focus,
+        .um input[type=submit]:disabled:hover {
+            background: #3ba1da !important
+        }
+        
+        .um .um-field-group-head:hover,
+        .picker__footer,
+        .picker__header,
+        .picker__day--infocus:hover,
+        .picker__day--outfocus:hover,
+        .picker__day--highlighted:hover,
+        .picker--focused .picker__day--highlighted,
+        .picker__list-item:hover,
+        .picker__list-item--highlighted:hover,
+        .picker--focused .picker__list-item--highlighted,
+        .picker__list-item--selected,
+        .picker__list-item--selected:hover,
+        .picker--focused .picker__list-item--selected,
+        .um .um-button:hover,
+        .um a.um-button:hover,
+        .um input[type=submit].um-button:hover {
+            background: #000000 !important
+        }
+        /* Button alt colors */
+        
+        .um .um-button.um-alt,
+        .um input[type=submit].um-button.um-alt {
+            background: #eeeeee !important
+        }
+        
+        .um .um-button.um-alt:hover,
+        .um input[type=submit].um-button.um-alt:hover {
+            background: #e5e5e5 !important
+        }
+        /** Start Envato Elements CSS:Blocks (141-3-1d55f1e76be9fb1a8d9de88accbe962f) **/
+        
+        .envato-kit-138-bracket .elementor-widget-container>*:before {
+            content: "[";
+            color: #ffab00;
+            display: inline-block;
+            margin-right: 4px;
+            line-height: 1em;
+            position: relative;
+            top: -1px
+        }
+        
+        .envato-kit-138-bracket .elementor-widget-container>*:after {
+            content: "]";
+            color: #ffab00;
+            display: inline-block;
+            margin-left: 4px;
+            line-height: 1em;
+            position: relative;
+            top: -1px
+        }
+        /** End Envato Elements CSS:Blocks (141-3-1d55f1e76be9fb1a8d9de88accbe962f) **/
+        /** Start Envato Elements CSS:Music Festival (117-3-18d72b71f48c05ed19e0e0c59aacc347) **/
+        
+        .envato-kit-114-toggle .elementor-toggle,
+        .envato-kit-114-toggle .elementor-toggle-icon {
+            text-align: center !important;
+            float: none !important
+        }
+        
+        .envato-kit-114-toggle .elementor-toggle {
+            border: 1px solid #FFF;
+            border-radius: 30px;
+            padding: 5px;
+            transition: all ease-in-out .3s
+        }
+        
+        .envato-kit-114-toggle .elementor-toggle:hover {
+            opacity: .8
+        }
+        /** End Envato Elements CSS:Music Festival (117-3-18d72b71f48c05ed19e0e0c59aacc347) **/
+        /** Start Envato Elements CSS:Blocks (142-3-a175df65179b9ef6a5ca9f1b2c0202b9) **/
+        
+        .envato-block__preview {
+            overflow: visible
+        }
+        /* Border Radius */
+        
+        .envato-kit-139-accordion .elementor-widget-container {
+            border-radius: 10px !important
+        }
+        
+        .envato-kit-139-map iframe,
+        .envato-kit-139-slider .slick-slide,
+        .envato-kit-139-flipbox .elementor-flip-box div {
+            border-radius: 10px !important
+        }
+        /** End Envato Elements CSS:Blocks (142-3-a175df65179b9ef6a5ca9f1b2c0202b9) **/
+        /** Start Envato Elements CSS:School (98-3-4f015172cb28213b2c11b10fcd2a3dfb) **/
+        /* Kit 83 - School Style Adjustments */
+        
+        .envato-kit-83-inline-block {
+            display: inline-block
+        }
+        
+        .envato-kit-83-top-0 .elementor-icon-box-title {
+            margin-top: 0
+        }
+        
+        .envato-kit-83-p-0 p {
+            margin: 0
+        }
+        
+        .envato-kit-83-break-word .elementor-icon-list-text {
+            word-break: break-all
+        }
+        /** End Envato Elements CSS:School (98-3-4f015172cb28213b2c11b10fcd2a3dfb) **/
+    </style>
+    <!-- OceanWP CSS -->
+    <style type="text/css">
+        /* Header CSS */
+        
+        #site-logo #site-logo-inner,
+        .oceanwp-social-menu .social-menu-inner,
+        #site-header.full_screen-header .menu-bar-inner,
+        .after-header-content .after-header-content-inner {
+            height: 79px
+        }
+        
+        #site-navigation-wrap .dropdown-menu>li>a,
+        .oceanwp-mobile-menu-icon a,
+        .after-header-content-inner>a {
+            line-height: 79px
+        }
+        
+        #site-header,
+        .has-transparent-header .is-sticky #site-header,
+        .has-vh-transparent .is-sticky #site-header.vertical-header,
+        #searchform-header-replace {
+            background-color: #0a0a0a
+        }
+        
+        #site-header.transparent-header {
+            background-color: rgba(10, 10, 10, 0.23)
+        }
+        
+        #site-header.has-header-media .overlay-header-media {
+            background-color: rgba(0, 0, 0, 0.5)
+        }
+        
+        #site-logo #site-logo-inner a img,
+        #site-header.center-header #site-navigation-wrap .middle-site-logo a img {
+            max-width: 120px
+        }
+        
+        #site-header #site-logo #site-logo-inner a img,
+        #site-header.center-header #site-navigation-wrap .middle-site-logo a img {
+            max-height: 227px
+        }
+        
+        .effect-one #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after,
+        .effect-three #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after,
+        .effect-five #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:before,
+        .effect-five #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after,
+        .effect-nine #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:before,
+        .effect-nine #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after {
+            background-color: #ffc40c
+        }
+        
+        .effect-four #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:before,
+        .effect-four #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after,
+        .effect-seven #site-navigation-wrap .dropdown-menu>li>a.menu-link:hover>span:after,
+        .effect-seven #site-navigation-wrap .dropdown-menu>li.sfHover>a.menu-link>span:after {
+            color: #ffc40c
+        }
+        
+        .effect-seven #site-navigation-wrap .dropdown-menu>li>a.menu-link:hover>span:after,
+        .effect-seven #site-navigation-wrap .dropdown-menu>li.sfHover>a.menu-link>span:after {
+            text-shadow: 10px 0 #ffc40c, -10px 0 #ffc40c
+        }
+        
+        .effect-two #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after,
+        .effect-eight #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:before,
+        .effect-eight #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after {
+            background-color: #eeee22
+        }
+        
+        .effect-six #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:before,
+        .effect-six #site-navigation-wrap .dropdown-menu>li>a.menu-link>span:after {
+            border-color: #eeee22
+        }
+        
+        .effect-ten #site-navigation-wrap .dropdown-menu>li>a.menu-link:hover>span,
+        .effect-ten #site-navigation-wrap .dropdown-menu>li.sfHover>a.menu-link>span {
+            -webkit-box-shadow: 0 0 10px 4px #eeee22;
+            -moz-box-shadow: 0 0 10px 4px #eeee22;
+            box-shadow: 0 0 10px 4px #eeee22
+        }
+        
+        #site-navigation-wrap .dropdown-menu>li>a {
+            padding: 0 22px
+        }
+        
+        #site-navigation-wrap .dropdown-menu>li>a,
+        .oceanwp-mobile-menu-icon a,
+        #searchform-header-replace-close {
+            color: #ffffff
+        }
+        
+        #site-navigation-wrap .dropdown-menu>li>a:hover,
+        .oceanwp-mobile-menu-icon a:hover,
+        #searchform-header-replace-close:hover {
+            color: #ffc40c
+        }
+        
+        #site-navigation-wrap .dropdown-menu>.current-menu-item>a,
+        #site-navigation-wrap .dropdown-menu>.current-menu-ancestor>a,
+        #site-navigation-wrap .dropdown-menu>.current-menu-item>a:hover,
+        #site-navigation-wrap .dropdown-menu>.current-menu-ancestor>a:hover {
+            color: #e8bd00
+        }
+        
+        .dropdown-menu .sub-menu,
+        #searchform-dropdown,
+        .current-shop-items-dropdown {
+            border-color: #ffc40c
+        }
+        
+        .dropdown-menu ul li.menu-item,
+        .navigation>ul>li>ul.megamenu.sub-menu>li,
+        .navigation .megamenu li ul.sub-menu {
+            border-color: #ffc40c
+        }
+        
+        .dropdown-menu ul li a.menu-link {
+            color: rgba(0, 0, 0, 0.6)
+        }
+        
+        .dropdown-menu ul li a.menu-link:hover {
+            color: #ffc40c
+        }
+        /* Blog CSS */
+        
+        .single-post.content-max-width .thumbnail,
+        .single-post.content-max-width .entry-header,
+        .single-post.content-max-width ul.meta,
+        .single-post.content-max-width .entry-content p,
+        .single-post.content-max-width .entry-content h1,
+        .single-post.content-max-width .entry-content h2,
+        .single-post.content-max-width .entry-content h3,
+        .single-post.content-max-width .entry-content h4,
+        .single-post.content-max-width .entry-content h5,
+        .single-post.content-max-width .entry-content h6,
+        .single-post.content-max-width .wp-block-image,
+        .single-post.content-max-width .wp-block-gallery,
+        .single-post.content-max-width .wp-block-video,
+        .single-post.content-max-width .wp-block-quote,
+        .single-post.content-max-width .wp-block-text-columns,
+        .single-post.content-max-width .entry-content ul,
+        .single-post.content-max-width .entry-content ol,
+        .single-post.content-max-width .wp-block-cover-text,
+        .single-post.content-max-width .post-tags,
+        .single-post.content-max-width .comments-area,
+        .wp-block-separator.is-style-wide {
+            max-width: 690px
+        }
+        
+        .single-post.content-max-width .wp-block-image.alignleft,
+        .single-post.content-max-width .wp-block-image.alignright {
+            max-width: 345px
+        }
+        
+        .single-post.content-max-width .wp-block-image.alignleft {
+            margin-left: calc( 50% - 345px)
+        }
+        
+        .single-post.content-max-width .wp-block-image.alignright {
+            margin-right: calc( 50% - 345px)
+        }
+        /* Typography CSS */
+        
+        body {
+            font-family: Open Sans;
+            letter-spacing: 2.3px;
+            text-transform: uppercase
+        }
+        
+        #site-navigation-wrap .dropdown-menu>li>a,
+        #site-header.full_screen-header .fs-dropdown-menu>li>a,
+        #site-header.top-header #site-navigation-wrap .dropdown-menu>li>a,
+        #site-header.center-header #site-navigation-wrap .dropdown-menu>li>a,
+        #site-header.medium-header #site-navigation-wrap .dropdown-menu>li>a,
+        .oceanwp-mobile-menu-icon a {
+            font-family: Raleway;
+            font-weight: 700;
+            font-size: 17px;
+            letter-spacing: 2px;
+            text-transform: none
+        }
+        
+        .dropdown-menu ul li a.menu-link,
+        #site-header.full_screen-header .fs-dropdown-menu ul.sub-menu li a {
+            font-family: Raleway;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: none
+        }
+    </style>
+    <style id="fit-vids-style">
+        .fluid-width-video-wrapper {
+            width: 100%;
+            position: relative;
+            padding: 0;
+        }
+        
+        .fluid-width-video-wrapper iframe,
+        .fluid-width-video-wrapper object,
+        .fluid-width-video-wrapper embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="page-template-default page page-id-2582 wp-custom-logo wp-embed-responsive oceanwp-theme sidebar-mobile has-transparent-header no-header-border default-breakpoint content-full-screen page-header-disabled has-breadcrumbs elementor-default elementor-page elementor-page-2582"
+    data-elementor-device-mode="desktop" data-new-gr-c-s-check-loaded="14.1007.0" data-gr-ext-installed="">
+
+
+    <div id="outer-wrap" class="site clr">
+
+
+        <div id="wrap" class="clr">
+
+
+            <div id="transparent-header-wrap" class="clr">
+
+                <header id="site-header" class="transparent-header effect-one clr" data-height="79" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+
+
+
+                    <div id="site-header-inner" class="clr container">
+
+
+
+
+                        <div id="site-logo" class="clr" itemscope="" itemtype="http://schema.org/Brand">
+
+
+                            <div id="site-logo-inner" class="clr">
+
+                                <a href="/home" class="custom-logo-link" rel="home"><img width="456" height="187" src="./static/cropped-8-removebg-preview.png" class="custom-logo">
+                            </div>
+                            <!-- #site-logo-inner -->
+
+
+
+                        </div>
+                        <!-- #site-logo -->
+
+                        <div id="site-navigation-wrap" class="clr">
+
+
+
+
+
+
+                            <nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+                                <ul id="menu-main" class="main-menu dropdown-menu sf-menu sf-js-enabled" style="touch-action: pan-y;">
+                                    <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-38"><a href="/" class="menu-link"><span class="text-wrap">Home</span></a></li>
+                                    <li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="/login" class="menu-link"><span class="text-wrap">Login</span></a></li>
+                                    </li>
+                                    <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="/" class="menu-link"><span class="text-wrap">About</span></a></li>
+                                </ul>
+                                <div id="searchform-dropdown" class="header-searchform-wrap clr">
+
+                                    <form method="get" class="searchform" id="searchform" action="/">
+                                        <input type="text" class="field" name="s" id="s" placeholder="Search">
+                                    </form>
+                                </div>
+                                <!-- #searchform-dropdown -->
+                            </nav>
+                            <!-- #site-navigation -->
+                        </div>
+                        <!-- #site-navigation-wrap -->
+
+
+
+
+                        <div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+
+
+
+                            <a href="/home" class="mobile-menu">
+                                <i class="fa fa-bars"></i>
+                                <span class="oceanwp-text">Menu</span>
+
+                            </a>
+
+
+
+
+                        </div>
+                        <!-- #oceanwp-mobile-menu-navbar -->
+
+
+                    </div>
+                    <!-- #site-header-inner -->
+
+
+
+
+
+
+                </header>
+                <!-- #site-header -->
+
+            </div>
+
+
+            <main id="main" class="site-main clr">
+
+
+
+                <div id="content-wrap" class="container clr">
+
+
+                    <div id="primary" class="content-area clr">
+
+
+                        <div id="content" class="site-content clr">
+
+
+
+                            <article class="single-page-article clr">
+
+
+                                <div class="entry clr" itemprop="text">
+                                    <div data-elementor-type="post" data-elementor-id="2582" class="elementor elementor-2582" data-elementor-settings="[]">
+                                        <div class="elementor-inner">
+                                            <div class="elementor-section-wrap">
+                                                <section class="elementor-element elementor-element-6b3022b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6b3022b2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;&quot;}"
+                                                    style="background-image: url('./static/theme.gif');">
+                                                    <div class="elementor-background-video-container elementor-hidden-phone" style="">
+                                                        <iframe class="elementor-background-video-embed" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="640" height="360" src="./static/ipUuoMCEbDQ.html"
+                                                            id="widget2" style="width: 1506.35px; height: 847.322px;"></iframe>
+                                                    </div>
+                                                    <div class="elementor-background-overlay" style="background-image: url('./static/theme.gif');"></div>
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-a6c0243 elementor-column elementor-col-100 elementor-top-column" data-id="a6c0243" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-5d693247 elementor-widget elementor-widget-heading" data-id="5d693247" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h2 class="elementor-heading-title elementor-size-large">Bitcoin PRICE PREDICTION</h2>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-600eae4 elementor-widget elementor-widget-text-editor" data-id="600eae4" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-text-editor elementor-clearfix">
+                                                                                <p>WELCOME TO THE FUTURE of investing!</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            </section>
+
+                                            <section class="elementor-element elementor-element-2e20696d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2e20696d" data-element_type="section"
+                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}" style="width: 1525px; left: 0px;background-image: url('./static/thumb1.png');">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-544c88bd elementor-column elementor-col-33 elementor-top-column" data-id="544c88bd" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-3bca2cb elementor-view-default elementor-widget elementor-widget-icon" data-id="3bca2cb" data-element_type="widget" data-widget_type="icon.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-icon-wrapper">
+                                                                                <div class="elementor-icon">
+                                                                                    <i aria-hidden="true" class="fas fa-users"></i> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-9ab642f elementor-widget elementor-widget-counter" data-id="9ab642f" data-element_type="widget" data-widget_type="counter.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-counter">
+                                                                                <div class="elementor-counter-number-wrapper">
+                                                                                    <span class="elementor-counter-number-prefix"></span>
+                                                                                    <span class="elementor-counter-number" data-duration="1800" data-to-value="10" data-from-value="" data-delimiter=",">10</span>
+                                                                                    <span class="elementor-counter-number-suffix">k+</span>
+                                                                                </div>
+                                                                                <div class="elementor-counter-title">Worldwide Users</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-38d084f1 elementor-column elementor-col-33 elementor-top-column" data-id="38d084f1" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <section class="elementor-element elementor-element-c21111c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="c21111c" data-element_type="section">
+                                                                        <div class="elementor-container elementor-column-gap-default">
+                                                                            <div class="elementor-row">
+                                                                                <div class="elementor-element elementor-element-db7f5ba elementor-column elementor-col-100 elementor-inner-column" data-id="db7f5ba" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-54dea8a elementor-widget elementor-widget-text-editor" data-id="54dea8a" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                                        <p>Innovations present an opportunity…</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-340dd3a elementor-widget elementor-widget-text-editor" data-id="340dd3a" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                                                                        <p>NOT A THREAT!</p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                    <div class="elementor-element elementor-element-6099583 elementor-view-default elementor-widget elementor-widget-icon" data-id="6099583" data-element_type="widget" data-widget_type="icon.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-icon-wrapper">
+                                                                                <div class="elementor-icon">
+                                                                                    <i aria-hidden="true" class="fas fa-lock"></i> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-f10a586 elementor-widget elementor-widget-counter" data-id="f10a586" data-element_type="widget" data-widget_type="counter.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-counter">
+                                                                                <div class="elementor-counter-number-wrapper">
+                                                                                    <span class="elementor-counter-number-prefix"></span>
+                                                                                    <span class="elementor-counter-number" data-duration="1800" data-to-value="100" data-from-value="" data-delimiter=",">100</span>
+                                                                                    <span class="elementor-counter-number-suffix">%</span>
+                                                                                </div>
+                                                                                <div class="elementor-counter-title">Secure</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-6a1830f6 elementor-column elementor-col-33 elementor-top-column" data-id="6a1830f6" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-fb68986 elementor-view-default elementor-widget elementor-widget-icon" data-id="fb68986" data-element_type="widget" data-widget_type="icon.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-icon-wrapper">
+                                                                                <div class="elementor-icon">
+                                                                                    <i aria-hidden="true" class="fas fa-project-diagram"></i> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-329ce027 elementor-widget elementor-widget-counter" data-id="329ce027" data-element_type="widget" data-widget_type="counter.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-counter">
+                                                                                <div class="elementor-counter-number-wrapper">
+                                                                                    <span class="elementor-counter-number-prefix"></span>
+                                                                                    <span class="elementor-counter-number" data-duration="1800" data-to-value="3400" data-from-value="" data-delimiter=",">3,400</span>
+                                                                                    <span class="elementor-counter-number-suffix">+</span>
+                                                                                </div>
+                                                                                <div class="elementor-counter-title">Companies</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section class="elementor-element elementor-element-aa74134 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="aa74134" data-element_type="section"
+                                                id="services" data-settings="{&quot;background_background&quot;:&quot;video&quot;}" style="background-image: url('./static/ico_bg_image_19.jpg');">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-2c4c4510 elementor-column elementor-col-100 elementor-top-column" data-id="2c4c4510" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <section class="elementor-element elementor-element-4b19c315 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section elementor-inner-section" data-id="4b19c315" data-element_type="section">
+                                                                        <div class="elementor-container elementor-column-gap-no">
+                                                                            <div class="elementor-row">
+                                                                                <div class="elementor-element elementor-element-1c480f94 elementor-column elementor-col-100 elementor-inner-column" data-id="1c480f94" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-6cf43985 animated-slow elementor-widget elementor-widget-heading animated fadeIn" data-id="6cf43985" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:&quot;600&quot;}"
+                                                                                                data-widget_type="heading.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <h2 class="elementor-heading-title elementor-size-default">Our SErvices</h2>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                    <div class="elementor-element elementor-element-7ed306fb elementor-widget elementor-widget-spacer" data-id="7ed306fb" data-element_type="widget" data-widget_type="spacer.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-spacer">
+                                                                                <div class="elementor-spacer-inner"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <section class="elementor-element elementor-element-2c58964e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="2c58964e" data-element_type="section">
+                                                                        <div class="elementor-container elementor-column-gap-no">
+                                                                            <div class="elementor-row">
+                                                                                <div class="elementor-element elementor-element-b470946 elementor-column elementor-col-33 elementor-inner-column" data-id="b470946" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-79fe6c7d elementor-view-stacked elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box animated fadeInUp" data-id="79fe6c7d" data-element_type="widget"
+                                                                                                data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <span class="elementor-icon elementor-animation-shrink">
+				<i aria-hidden="true" class="fas fa-hands-helping"></i>				</span>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h3 class="elementor-icon-box-title">
+                                                                                                                <span>trusted </span>
+                                                                                                            </h3>
+                                                                                                            <p class="elementor-icon-box-description">Approved by AICTE</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-3129b8b elementor-view-stacked elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box animated fadeInUp" data-id="3129b8b" data-element_type="widget"
+                                                                                                data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <span class="elementor-icon elementor-animation-shrink">
+				<i aria-hidden="true" class="far fa-money-bill-alt"></i>				</span>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h3 class="elementor-icon-box-title">
+                                                                                                                <span>EARN MONEY</span>
+                                                                                                            </h3>
+                                                                                                            <p class="elementor-icon-box-description">Earn more money by investing in the right place</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="elementor-element elementor-element-3f35d08d elementor-column elementor-col-33 elementor-inner-column" data-id="3f35d08d" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-26d3410a elementor-view-stacked elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box animated fadeInUp" data-id="26d3410a" data-element_type="widget"
+                                                                                                data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <span class="elementor-icon elementor-animation-shrink">
+				<i aria-hidden="true" class="fab fa-bitcoin"></i>				</span>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h3 class="elementor-icon-box-title">
+                                                                                                                <span>accurate predictions</span>
+                                                                                                            </h3>
+                                                                                                            <p class="elementor-icon-box-description">We provide accurate Bitcoin predictions</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-e58a59f elementor-view-stacked elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box animated fadeInUp" data-id="e58a59f" data-element_type="widget"
+                                                                                                data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <span class="elementor-icon elementor-animation-shrink">
+				<i aria-hidden="true" class="fas fa-globe-americas"></i>				</span>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h3 class="elementor-icon-box-title">
+                                                                                                                <span>Secure</span>
+                                                                                                            </h3>
+                                                                                                            <p class="elementor-icon-box-description">A highly secure website</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="elementor-element elementor-element-7de549a6 elementor-column elementor-col-33 elementor-inner-column" data-id="7de549a6" data-element_type="column">
+                                                                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                        <div class="elementor-widget-wrap">
+                                                                                            <div class="elementor-element elementor-element-3a550aa2 elementor-view-stacked elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box animated fadeInUp" data-id="3a550aa2" data-element_type="widget"
+                                                                                                data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <span class="elementor-icon elementor-animation-shrink">
+				<i aria-hidden="true" class="far fa-address-card"></i>				</span>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h3 class="elementor-icon-box-title">
+                                                                                                                <span>qualified employees</span>
+                                                                                                            </h3>
+                                                                                                            <p class="elementor-icon-box-description">Tranined technical personell work for us</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="elementor-element elementor-element-4a768bac elementor-view-stacked elementor-shape-circle elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box animated fadeInUp" data-id="4a768bac" data-element_type="widget"
+                                                                                                data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="icon-box.default">
+                                                                                                <div class="elementor-widget-container">
+                                                                                                    <div class="elementor-icon-box-wrapper">
+                                                                                                        <div class="elementor-icon-box-icon">
+                                                                                                            <span class="elementor-icon elementor-animation-shrink">
+				<i aria-hidden="true" class="fas fa-university"></i>				</span>
+                                                                                                        </div>
+                                                                                                        <div class="elementor-icon-box-content">
+                                                                                                            <h3 class="elementor-icon-box-title">
+                                                                                                                <span>real time Bitcoins</span>
+                                                                                                            </h3>
+                                                                                                            <p class="elementor-icon-box-description">Provides real time Bitcoin quotes for the companies</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        </article>
+
+                    </div>
+                    <!-- #content -->
+
+
+                </div>
+                <!-- #primary -->
+
+
+        </div>
+        <!-- #content-wrap -->
+
+
+
+        </main>
+        <!-- #main -->
+
+
+
+
+
+        <!-- #footer -->
+
+
+    </div>
+    <!-- #wrap -->
+
+
+    </div>
+    <!-- #outer-wrap -->
+
+
+
+
+
+
+    <div id="sidr-close">
+        <a href="/home" class="toggle-sidr-close">
+            <i class="icon icon-close"></i><span class="close-text">Close Menu</span>
+        </a>
+    </div>
+
+
+    <div id="mobile-menu-search" class="clr">
+        <form method="get" action="/home" class="mobile-searchform">
+            <input type="search" name="s" autocomplete="off" placeholder="Search">
+            <button type="submit" class="searchform-submit">
+			<i class="icon icon-magnifier"></i>
+		</button>
+        </form>
+    </div>
+    <!-- .mobile-menu-search -->
+
+
+    <div id="um_upload_single" style="display:none"></div>
+    <div id="um_view_photo" style="display:none">
+
+        <a href="javascript:void(0);" data-action="um_remove_modal" class="um-modal-close"><i class="um-faicon-times"></i></a>
+
+        <div class="um-modal-body photo">
+            <div class="um-modal-photo"></div>
+        </div>
+
+    </div>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "apiSettings": {
+                "root": "http:\/\/localhost\/www\/wordpress-5.6.2\/wordpress\/wp-json\/contact-form-7\/v1",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="./static/scripts.jss.download" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="./static/imagesloaded.min.jss.download" id="imagesloaded-js"></script>
+    <script type="text/javascript" src="./static/magnific-popup.min.jss.download" id="magnific-popup-js"></script>
+    <script type="text/javascript" src="./static/lightbox.min.jss.download" id="oceanwp-lightbox-js"></script>
+    <script type="text/javascript" id="oceanwp-main-js-extra">
+        /* <![CDATA[ */
+        var oceanwpLocalize = {
+            "isRTL": "",
+            "menuSearchStyle": "drop_down",
+            "sidrSource": "#sidr-close, #site-navigation, #mobile-menu-search",
+            "sidrDisplace": "1",
+            "sidrSide": "left",
+            "sidrDropdownTarget": "link",
+            "verticalHeaderTarget": "link",
+            "customSelects": ".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select",
+            "ajax_url": "http:\/\/localhost\/www\/wordpress-5.6.2\/wordpress\/wp-admin\/admin-ajax.php"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="./static/main.min.jss.download" id="oceanwp-main-js"></script>
+    <script type="text/javascript" src="./static/masonry.min.jss.download" id="masonry-js"></script>
+    <script type="text/javascript" src="./static/jquery.masonry.min.jss.download" id="jquery-masonry-js"></script>
+    <script type="text/javascript" src="./static/select2.full.min.jss.download" id="select2-js"></script>
+    <script type="text/javascript" src="./static/underscore.min.jss.download" id="underscore-js"></script>
+    <script type="text/javascript" id="wp-util-js-extra">
+        /* <![CDATA[ */
+        var _wpUtilSettings = {
+            "ajax": {
+                "url": "\/www\/wordpress-5.6.2\/wordpress\/wp-admin\/admin-ajax.php"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="./static/wp-util.min.jss.download" id="wp-util-js"></script>
+    <script type="text/javascript" src="./static/um-crop.min.jss.download" id="um_crop-js"></script>
+    <script type="text/javascript" src="./static/um-modal.min.jss.download" id="um_modal-js"></script>
+    <script type="text/javascript" src="./static/um-jquery-form.min.jss.download" id="um_jquery_form-js"></script>
+    <script type="text/javascript" src="./static/um-fileupload.min.jss.download" id="um_fileupload-js"></script>
+    <script type="text/javascript" src="./static/picker.jss.download" id="um_datetime-js"></script>
+    <script type="text/javascript" src="./static/picker.date.jss.download" id="um_datetime_date-js"></script>
+    <script type="text/javascript" src="./static/picker.time.jss.download" id="um_datetime_time-js"></script>
+    <script type="text/javascript" src="./static/legacy.jss.download" id="um_datetime_legacy-js"></script>
+    <script type="text/javascript" src="./static/um-raty.min.jss.download" id="um_raty-js"></script>
+    <script type="text/javascript" src="./static/um-tipsy.min.jss.download" id="um_tipsy-js"></script>
+    <script type="text/javascript" src="./static/simplebar.min.jss.download" id="um_scrollbar-js"></script>
+    <script type="text/javascript" src="./static/um-functions.min.jss.download" id="um_functions-js"></script>
+    <script type="text/javascript" src="./static/um-responsive.min.jss.download" id="um_responsive-js"></script>
+    <script type="text/javascript" src="./static/um-conditional.min.jss.download" id="um_conditional-js"></script>
+    <script type="text/javascript" id="um_scripts-js-extra">
+        /* <![CDATA[ */
+        var um_scripts = {
+            "nonce": "f37c65a6a3"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="./static/um-scripts.min.jss.download" id="um_scripts-js"></script>
+    <script type="text/javascript" src="./static/um-members.min.jss.download" id="um_members-js"></script>
+    <script type="text/javascript" src="./static/um-profile.min.jss.download" id="um_profile-js"></script>
+    <script type="text/javascript" src="./static/um-account.min.jss.download" id="um_account-js"></script>
+    <script type="text/javascript" src="./static/wp-embed.min.jss.download" id="wp-embed-js"></script>
+    <!--[if lt IE 9]>
+<script type='text/javascript' src='http://localhost/www/wordpress-5.6.2/wordpress/wp-content/themes/oceanwp/assets/js/third/html5.min.jss?ver=1.6.10' id='html5shiv-js'></script>
+<![endif]-->
+    <script type="text/javascript" src="./static/slick.min.jss.download" id="jquery-slick-js"></script>
+    <script type="text/javascript" src="./static/jquery-numerator.min.jss.download" id="jquery-numerator-js"></script>
+    <script type="text/javascript" src="./static/frontend-modules.min.jss.download" id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript" src="./static/jquery.sticky.min.jss.download" id="elementor-sticky-js"></script>
+    <script type="text/javascript" id="elementor-pro-frontend-js-before">
+        var ElementorProFrontendConfig = {
+            "ajaxurl": "http:\/\/localhost\/www\/wordpress-5.6.2\/wordpress\/wp-admin\/admin-ajax.php",
+            "nonce": "d0523b0f02",
+            "shareButtonsNetworks": {
+                "facebook": {
+                    "title": "Facebook",
+                    "has_counter": true
+                },
+                "twitter": {
+                    "title": "Twitter"
+                },
+                "google": {
+                    "title": "Google+",
+                    "has_counter": true
+                },
+                "linkedin": {
+                    "title": "LinkedIn",
+                    "has_counter": true
+                },
+                "pinterest": {
+                    "title": "Pinterest",
+                    "has_counter": true
+                },
+                "reddit": {
+                    "title": "Reddit",
+                    "has_counter": true
+                },
+                "vk": {
+                    "title": "VK",
+                    "has_counter": true
+                },
+                "odnoklassniki": {
+                    "title": "OK",
+                    "has_counter": true
+                },
+                "tumblr": {
+                    "title": "Tumblr"
+                },
+                "delicious": {
+                    "title": "Delicious"
+                },
+                "digg": {
+                    "title": "Digg"
+                },
+                "skype": {
+                    "title": "Skype"
+                },
+                "stumbleupon": {
+                    "title": "StumbleUpon",
+                    "has_counter": true
+                },
+                "telegram": {
+                    "title": "Telegram"
+                },
+                "pocket": {
+                    "title": "Pocket",
+                    "has_counter": true
+                },
+                "xing": {
+                    "title": "XING",
+                    "has_counter": true
+                },
+                "whatsapp": {
+                    "title": "WhatsApp"
+                },
+                "email": {
+                    "title": "Email"
+                },
+                "print": {
+                    "title": "Print"
+                }
+            },
+            "facebook_sdk": {
+                "lang": "en_US",
+                "app_id": ""
+            }
+        };
+    </script>
+    <script type="text/javascript" src="./static/frontend.min.jss.download" id="elementor-pro-frontend-js"></script>
+    <script type="text/javascript" src="./static/core.min.jss.download" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" src="./static/dialog.min.jss.download" id="elementor-dialog-js"></script>
+    <script type="text/javascript" src="./static/waypoints.min.jss.download" id="elementor-waypoints-js"></script>
+    <script type="text/javascript" src="./static/swiper.min.jss.download" id="swiper-js"></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "version": "2.6.8",
+            "urls": {
+                "assets": "http:\/\/localhost\/www\/wordpress-5.6.2\/wordpress\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "settings": {
+                "page": [],
+                "general": {
+                    "elementor_global_image_lightbox": "yes",
+                    "elementor_enable_lightbox_in_editor": "yes"
+                }
+            },
+            "post": {
+                "id": 2582,
+                "title": "Home",
+                "excerpt": ""
+            }
+        };
+    </script>
+    <script type="text/javascript" src="./static/frontend.min.jss(1).download" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+    <script type="text/javascript">
+        jQuery('#request').val('');
+    </script>
+
+    <div id="sidr" class="sidr left" style="transition: left 0.3s ease 0s;">
+        <div class="sidr-inner">
+            <a href="/home" class="sidr-class-toggle-sidr-close">
+                <i class="sidr-class-icon icon-close"></i><span class="sidr-class-close-text">Close Menu</span>
+            </a>
+        </div>
+        <div class="sidr-inner">
+
+            <ul id="sidr-id-menu-main2-copy" class="sidr-class-main-menu sidr-class-dropdown-menu sidr-class-sf-menu">
+                <li id="sidr-id-menu-item-2585" class="sidr-class-menu-item sidr-class-menu-item-type-post_type sidr-class-menu-item-object-page sidr-class-current-menu-item sidr-class-page_item sidr-class-page-item-2582 sidr-class-current_page_item sidr-class-menu-item-2585"><a href="/home" class="sidr-class-menu-link"><span class="sidr-class-text-wrap">Home</span></a></li>
+                <li id="sidr-id-menu-item-2588" class="sidr-class-menu-item sidr-class-menu-item-type-custom sidr-class-menu-item-object-custom sidr-class-menu-item-2588"><a href="/dashboard" class="sidr-class-menu-link"><span class="sidr-class-text-wrap">Dashboard</span></a></li>
+                <li id="sidr-id-menu-item-2578" class="sidr-class-menu-item sidr-class-menu-item-type-post_type sidr-class-menu-item-object-page sidr-class-menu-item-2578"><a href="/home" class="sidr-class-menu-link"><span class="sidr-class-text-wrap">About</span></a></li>
+                <li id="sidr-id-menu-item-2580" class="sidr-class-menu-item sidr-class-menu-item-type-custom sidr-class-menu-item-object-custom sidr-class-current-menu-item sidr-class-menu-item-2580"><a href="/home" class="sidr-class-menu-link"><span class="sidr-class-text-wrap">Contact Us</span></a></li>
+                <li id="sidr-id-menu-item-2575" class="sidr-class-menu-item sidr-class-menu-item-type-custom sidr-class-menu-item-object-custom sidr-class-menu-item-2575"><a href="/login" class="sidr-class-menu-link"><span class="sidr-class-text-wrap">Logout</span></a></li>
+                <li class="sidr-class-search-toggle-li"><a href="/home" class="sidr-class-site-search-toggle sidr-class-search-dropdown-toggle"><span class="icon-magnifier"></span></a></li>
+            </ul>
+            <div id="sidr-id-searchform-dropdown" class="sidr-class-header-searchform-wrap sidr-class-clr">
+
+                <form method="get" class="sidr-class-searchform" id="sidr-id-searchform" action="/home">
+                    <input type="text" class="sidr-class-field" name="s" id="sidr-id-s" placeholder="Search">
+                </form>
+            </div>
+            <!-- #searchform-dropdown -->
+        </div>
+        <div class="sidr-inner">
+            <form method="get" action="/home" class="sidr-class-mobile-searchform">
+                <input type="search" name="s" autocomplete="off" placeholder="Search">
+                <button type="submit" class="sidr-class-searchform-submit">
+			<i class="sidr-class-icon icon-magnifier"></i>
+		</button>
+            </form>
+        </div>
+    </div>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
